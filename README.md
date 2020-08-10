@@ -4,7 +4,7 @@ The purpose of this analysis was to obtain statistics describing a variety of gr
 
 ## Results
 - ***How is the district summary affected?***
-![ScreenShots](/Resources/Resources/old_vs_new_district_analysis.PNG)
+![image](/Resources/Resources/old_vs_new_district_analysis.PNG)
   - Shown below is the original district analysis on top (without Thomas High School 9th grade data removed), and the updated analysis on bottom. As we can see, there was no significant changes in average math or reading scores, suggesting that these mean values are relatively representative of the total population. However, we can observe over a 1% decrease in students passing both math or reading, which results in a 1% decrease to overall passing rate. 
 
 - ***How is the school summary affected?***
