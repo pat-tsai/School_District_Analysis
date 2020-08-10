@@ -19,8 +19,18 @@ Thomas High School was previously ranked 2nd out of all schools in the district,
 
 - ***How does replacing the ninth-grade scores affect the following:***
     - **Math and reading scores by grade**
-      - By utilizing the following snippet of code: `Thomas_High_math_by_grade = math_scores_by_grade.loc['Thomas High School']`, we can quickly filter the dataframe to display all math scores from Thomas High School. The primary difference is that 9th grade math scores display "NaN". As expected, this analysis reveals no changes in 10th, 11th, or 12th grade data (83.1, 83.5, and 83.5 respectively), since the only changes made to the dataset were to 9th grade scores.
+      -By utilizing the following snippet of code: `Thomas_High_math_by_grade = math_scores_by_grade.loc['Thomas High School']`, we can quickly filter the dataframe to display all math scores from Thomas High School. The primary difference is that 9th grade math scores display "NaN". As expected, this analysis reveals no changes in 10th, 11th, or 12th grade data (83.1, 83.5, and 83.5 respectively), since the only changes made to the dataset were to 9th grade scores.
  
   - **Scores by school spending**
+    -Shown below are scores based on school funding (old on top, new on bottom).
+    ![ScreenShots](/Resources/old_vs_new_scores_by_funding.PNG)
+    Based on our analysis above, we discovered that Thomas High Schools' spending range per student is from 630-644. Thus, we only need to pay attention to that row for observable changes. Based on the results, there is about a 6% decrease in passing math rate and 7% decrease in passing reading rate once the 9th grade data from Thomas High was removed. As expected, this translates to a 7% decrease in overall passing rate.
+    
   - **Scores by school size**
+    -Thomas High School was grouped into the medium school size bin since it had 1,635 students. Shown below are the before(top) and after(bottom) results:
+    ![ScreenShots](/Resources/old_vs_new_scores_by_size.PNG)
+    
   - **Scores by school type**
+  
+##Summary
+Based on the analysis, we can observe that Thomas High Schools' 9th grade data greatly inflated the overall statistics.
