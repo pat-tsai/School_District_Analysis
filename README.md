@@ -33,6 +33,7 @@ Thomas High School was previously ranked 2nd out of all schools in the district,
     
   - **Scores by school size**
     - Thomas High School was grouped into the medium school size bin since it had 1,635 students. Shown below are the before(top) and after(bottom) results:
+    
     ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_size.png)
     
     - Based on the analysis, there was a 6% decrease in passing math rate as well as passing reading rate, resulting in a 6% overall passing rate decrease. However, there was no change in the average scores themselves.
