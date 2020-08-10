@@ -37,4 +37,10 @@ Based on the analysis, there was a 6% decrease in passing math rate as well as p
     
     
 ## Summary
-Based on the analysis, we can observe that Thomas High Schools' 9th grade data greatly inflated the overall statistics.
+In conclusion, the 4 major changes that occurred after removing the 9th grade Thomas High School scores are as follows:
+  -1) A decrease in 1.08% of the overall district passing rate. While 1% may not seem like a significant number, it is important to keep in mind the district summary encompasses every single school in the district, thus having the largest sample size. It is surprising that removing only 9th grade data from 1 high school would have such a big impact on over all district pass rate, which includes data for 15 schools in grades 9-12.
+  -2) It is no surprise (given that the 9th grade Thomas High School data was faulty) that the overall pass rate for Thomas High dropped. Based on the analysis, we observed over a 25% decrease in overall pass rate while the average math and reading scores remained faily constant. This is because the scores from grades 10, 11, and 12 were all approximate 83.xx, thus removing the 9th grade data did not have a significant effect on the average. This decrease subsequently dropped Thomas High School from #2 in overall ranking based on overall pass rate to #8. 
+  -3) There was a 7% decrease in overall pass rate for the $630-644 spending range bin (the bin that Thomas High belonged to). This bin contained 5 schools total, and was significantly affected by the 9th grade Thomas High data.
+  -4) There was a 6% overall pass rate decrease in the medium size schools bin (1000-2000 students), and a 3% decrease overall decrease in charter type schools category. We can attribute the varying impacts due to each grouping having different sample sizes. For example, the medium size school bin had 7 schools total, whereas the charter school group only had 5 schools total. Nevertheless, we can conclude that the 9th grade data from Thomas high inflated both of these statistics.  
+
+**Based on the analysis, we can observe that Thomas High Schools' 9th grade data greatly inflated the overall statistics.**
