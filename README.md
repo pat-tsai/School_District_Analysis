@@ -6,7 +6,7 @@ The purpose of this analysis was to obtain statistics describing a variety of gr
 ***How is the district summary affected?***
   - Shown below is the original district analysis on top (without Thomas High School 9th grade data removed), and the updated analysis on bottom. As we can see, there was no significant changes in average math or reading scores, suggesting that these mean values are relatively representative of the total population. However, we can observe over a 1% decrease in students passing both math or reading, which results in a 1% decrease to overall passing rate.   
 
-![ScreenShots](/Resources/Resources/old_vs_new_district_analysis.png)
+  ![ScreenShots](/Resources/Resources/old_vs_new_district_analysis.png)
 
 ***How is the school summary affected?***
   - Since no changes were made to student data other than to the 9th grade students at Thomas High School, all cell values remained the same except values pertaining to that specific high school. Thus, we can use the `.loc()` method to filter the complete school dataframe to only display results from Thomas High. Below are screenshots of the old high school data(left) versus the new data(right). 
@@ -17,7 +17,7 @@ The purpose of this analysis was to obtain statistics describing a variety of gr
 ***How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?***
   - Shown below are the top 5 performing schools (based on overall passing rate) before revising the data.
   
-![ScreenShots](/Resources/Resources/top_schools_old.png)  
+  ![ScreenShots](/Resources/Resources/top_schools_old.png)  
 
 Thomas High School was previously ranked 2nd out of all schools in the district, with a whopping 90.95% overall passing rate. However, this rate dropped to 65% after removing the potentially tampered 9th grade data, resulting in a large drop in ranking. To put this into perspective, the bottom 5 ranking schools had overall passing rates between 53% - 53.54%.  
 
