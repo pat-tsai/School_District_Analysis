@@ -15,7 +15,8 @@ The purpose of this analysis was to obtain statistics describing a variety of gr
   - Once again, the data shows no significant changes in average math and reading scores. However, there is a substantial decrease in math and reading passing rates, resulting in about a 25% decrease in overall passing rate.   
 
 ***How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?***
-  -Shown below are the top 5 performing schools (based on overall passing rate) before revising the data.
+  - Shown below are the top 5 performing schools (based on overall passing rate) before revising the data.
+  
 ![ScreenShots](/Resources/Resources/top_schools_old.png)  
 
 Thomas High School was previously ranked 2nd out of all schools in the district, with a whopping 90.95% overall passing rate. However, this rate dropped to 65% after removing the potentially tampered 9th grade data, resulting in a large drop in ranking. To put this into perspective, the bottom 5 ranking schools had overall passing rates between 53% - 53.54%.  
