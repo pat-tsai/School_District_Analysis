@@ -4,17 +4,17 @@ The purpose of this analysis was to obtain statistics describing a variety of gr
 
 ## Results
 - ***How is the district summary affected?***
-![image](/Resources/Resources/old_vs_new_district_analysis.PNG)
-  - Shown below is the original district analysis on top (without Thomas High School 9th grade data removed), and the updated analysis on bottom. As we can see, there was no significant changes in average math or reading scores, suggesting that these mean values are relatively representative of the total population. However, we can observe over a 1% decrease in students passing both math or reading, which results in a 1% decrease to overall passing rate. 
+![ScreenShots](/Resources/Resources/old_vs_new_district_analysis.png)
+  - Shown above is the original district analysis on top (without Thomas High School 9th grade data removed), and the updated analysis on bottom. As we can see, there was no significant changes in average math or reading scores, suggesting that these mean values are relatively representative of the total population. However, we can observe over a 1% decrease in students passing both math or reading, which results in a 1% decrease to overall passing rate. 
 
 - ***How is the school summary affected?***
   - Since no changes were made to student data other than to the 9th grade students at Thomas High School, all cell values remained the same except values pertaining to that specific high school. Thus, we can use the `.loc()` method to filter the complete school dataframe to only display results from Thomas High. Below are screenshots of the old high school data(left) versus the new data(right). 
-![ScreenShots](/Resources/Resources/old_vs_new_Thomas_High.PNG)
+![ScreenShots](/Resources/Resources/old_vs_new_Thomas_High.png)
 Once again, the data shows no significant changes in average math and reading scores. However, there is a substantial decrease in math and reading passing rates, resulting in about a 25% decrease in overall passing rate. 
 
 - ***How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?***
   - Shown below are the top 5 performing schools (based on overall passing rate) before revising the data.
-![ScreenShots](/Resources/Resources/top_schools_old.PNG)
+![ScreenShots](/Resources/Resources/top_schools_old.png)
 Thomas High School was previously ranked 2nd out of all schools in the district, with a whopping 90.95% overall passing rate. However, this rate dropped to 65% after removing the potentially tampered 9th grade data, resulting in a large drop in ranking. To put this into perspective, the bottom 5 ranking schools had overall passing rates between 53% - 53.54%.
 
 - ***How does replacing the ninth-grade scores affect the following:***
@@ -23,17 +23,17 @@ Thomas High School was previously ranked 2nd out of all schools in the district,
  
   - **Scores by school spending**
     -Shown below are scores based on school funding (old on top, new on bottom).
-    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_funding.PNG)
+    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_funding.png)
     Based on our analysis above, we discovered that Thomas High Schools' spending range per student is from 630-644. Thus, we only need to pay attention to that row for observable changes. Based on the results, there is about a 6% decrease in passing math rate and 7% decrease in passing reading rate once the 9th grade data from Thomas High was removed. As expected, this translates to a 7% decrease in overall passing rate.
     
   - **Scores by school size**
     -Thomas High School was grouped into the medium school size bin since it had 1,635 students. Shown below are the before(top) and after(bottom) results:
-    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_size.PNG)
+    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_size.png)
 Based on the analysis, there was a 6% decrease in passing math rate, passing reading rate, resulting in a 6% overall passing rate decrease. However, there was no change in the average scores themselves.
     
   - **Scores by school type**
     -Shown below are the before and after test results statistics based on school type. As we can see, the charter statistics decreased since Thomas High school had previously inflated the stats.
-    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_type.PNG)
+    ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_type.png)
     
     
 ##Summary
