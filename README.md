@@ -29,13 +29,13 @@ Thomas High School was previously ranked 2nd out of all schools in the district,
     - Shown below are scores based on school funding (old on top, new on bottom).
     ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_funding.png)
 
-Based on our analysis above, we discovered that Thomas High Schools' spending range per student is from 630-644. Thus, we only need to pay attention to that row for observable changes. Based on the results, there is about a 6% decrease in passing math rate and 7% decrease in passing reading rate once the 9th grade data from Thomas High was removed. As expected, this translates to a 7% decrease in overall passing rate.
+    - Based on our analysis above, we discovered that Thomas High Schools' spending range per student is from 630-644. Thus, we only need to pay attention to that row for observable changes. Based on the results, there is about a 6% decrease in passing math rate and 7% decrease in passing reading rate once the 9th grade data from Thomas High was removed. As expected, this translates to a 7% decrease in overall passing rate.
     
   - **Scores by school size**
     - Thomas High School was grouped into the medium school size bin since it had 1,635 students. Shown below are the before(top) and after(bottom) results:
     ![ScreenShots](/Resources/Resources/old_vs_new_scores_by_size.png)
     
-Based on the analysis, there was a 6% decrease in passing math rate as well as passing reading rate, resulting in a 6% overall passing rate decrease. However, there was no change in the average scores themselves.
+    - Based on the analysis, there was a 6% decrease in passing math rate as well as passing reading rate, resulting in a 6% overall passing rate decrease. However, there was no change in the average scores themselves.
     
   - **Scores by school type**
     - Shown below are the before(left) and after(right) test results statistics based on school type. As we can see, the charter school group statistics decreased since Thomas High school had previously inflated the stats.
